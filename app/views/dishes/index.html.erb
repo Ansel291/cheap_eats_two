@@ -1,8 +1,5 @@
 <% @dishes.each do |dish| %>
-
-  <h2> <%= dish.title %> </h2>
-
+  <h2> <%= link_to dish.title, dish_path(dish) %> </h2>
 <% end %>
-
 
 <%= link_to "Add Dish", new_dish_path %>
