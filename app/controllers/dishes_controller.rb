@@ -1,6 +1,7 @@
 class DishesController < ApplicationController
 
   def index
+    @dishes = Dish.all.order("created_at DESC")
   end
 
   def new
