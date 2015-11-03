@@ -9,11 +9,11 @@ class DishesController < ApplicationController
   end
 
   def new
-    @dish = Dish.new
+    @dish = current_user.dishes.build
   end
 
   def create
-    @dish = Dish.new(dish_params)
+    @dish = current_user.dishes.build(dish_params)
 
     if @dish.save
       redirect_to root_path
