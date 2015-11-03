@@ -5,5 +5,14 @@
 <p><%= @dish.description %></p>
 
 <%= link_to "Back", root_path %>
-<%= link_to "Edit", edit_dish_path(@dish) %>
-<%= link_to "Delete", dish_path(@dish), method: :delete, data: { confirm: "Are you sure?" } %>
+
+<% if user_signed_in? %>
+
+  <% if @dish.user_id == current_user.id %>
+
+    <%= link_to "Edit", edit_dish_path(@dish) %>
+    <%= link_to "Delete", dish_path(@dish), method: :delete, data: { confirm: "Are you sure?" } %>
+
+  <% end %>
+
+<% end %>
