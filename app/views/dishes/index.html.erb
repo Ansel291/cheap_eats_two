@@ -1,5 +1,8 @@
+<% @dishes.each do |dish| %>
 
-  <h2>Index View</h2>
+  <h2><%= dish.title %></h2>
+
+<% end %>
 
 
 <%= link_to "Add Dish", new_dish_path %>
