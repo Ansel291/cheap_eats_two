@@ -10,6 +10,7 @@ class DishesController < ApplicationController
 
   def new
     @dish = current_user.dishes.build
+    @categories = Category.all.map{ |c| [c.name, c.id] }
   end
 
   def create
