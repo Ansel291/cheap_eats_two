@@ -3,3 +3,6 @@
 <p><%= @dish.city %></p>
 <p><%= @dish.price %></p>
 <p><%= @dish.description %></p>
+
+<%= link_to "Edit", edit_dish_path(@dish) %>
+<%= link_to "Delete", dish_path(@dish), method: :delete, date: { confirm: "Are you sure?" } %>
