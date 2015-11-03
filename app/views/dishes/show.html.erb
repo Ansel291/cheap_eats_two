@@ -4,5 +4,6 @@
 <p><%= @dish.price %></p>
 <p><%= @dish.description %></p>
 
+<%= link_to "Back", root_path %>
 <%= link_to "Edit", edit_dish_path(@dish) %>
 <%= link_to "Delete", dish_path(@dish), method: :delete, data: { confirm: "Are you sure?" } %>
