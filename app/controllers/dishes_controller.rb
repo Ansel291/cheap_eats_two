@@ -22,6 +22,20 @@ class DishesController < ApplicationController
     end
   end
 
+  def edit
+  end
+
+  def update
+    if @dish.update(dish_params)
+      redirect_to dish_path(@dish)
+    else
+      render 'edit'
+    end
+  end
+
+  def destroy
+  end
+
   private
 
     def dish_params
