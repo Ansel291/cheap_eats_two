@@ -15,6 +15,7 @@ class DishesController < ApplicationController
 
   def create
     @dish = current_user.dishes.build(dish_params)
+    @dish.category_id = params[:category_id]
 
     if @dish.save
       redirect_to root_path
@@ -42,7 +43,7 @@ class DishesController < ApplicationController
   private
 
     def dish_params
-      params.require(:dish).permit(:title, :restaurant, :city, :price, :description, :image)
+      params.require(:dish).permit(:title, :restaurant, :city, :price, :description, :image, :category_id)
     end
 
     def find_dish
