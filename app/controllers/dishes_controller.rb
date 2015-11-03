@@ -41,7 +41,7 @@ class DishesController < ApplicationController
   private
 
     def dish_params
-      params.require(:dish).permit(:title, :restaurant, :city, :price, :description)
+      params.require(:dish).permit(:title, :restaurant, :city, :price, :description, :image)
     end
 
     def find_dish
