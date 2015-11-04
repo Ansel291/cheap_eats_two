@@ -6,11 +6,19 @@
 
 <% else %>
 
-  <% @dishes.each do |dish| %>
-    <a href="/dishes/<%= dish.id %>">
-      <%= image_tag dish.image.url(:medium) %>
-    </a>
-  <% end %>
+  <div class="row">
+
+    <% @dishes.each do |dish| %>
+
+      <div class="col-md-3">
+        <a href="/dishes/<%= dish.id %>">
+          <%= image_tag dish.image.url(:medium) %>
+        </a>
+      </div>
+
+    <% end %>
+
+  </div>
 
 <% end %>
 
