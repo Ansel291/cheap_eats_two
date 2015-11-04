@@ -1,12 +1,23 @@
 <h1 class="current-category"><%= params[:category] %></h1>
 
 <% if @dishes.count == 0 %>
+
   <h1>There are currently no dishes in this category</h1>
 
 <% else %>
 
   <% @dishes.each do |dish| %>
-    <%= image_tag dish.image.url(:medium) %>
-    <h3><%= link_to dish.title, dish_path(dish) %></h3>
+    <a href="/dishes/<%= dish.id %>">
+      <%= image_tag dish.image.url(:medium) %>
+    </a>
   <% end %>
+
 <% end %>
+
+
+
+
+
+
+
+
