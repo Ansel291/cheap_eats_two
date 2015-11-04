@@ -6,8 +6,6 @@
 <% else %>
 
   <% @dishes.each do |dish| %>
-    <%= image_tag @dish.image.url(:medium) %>
+    <h2><%= link_to dish.title, dish_path(dish) %></h2>
   <% end %>
 <% end %>
-
-
