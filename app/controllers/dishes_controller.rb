@@ -2,7 +2,12 @@ class DishesController < ApplicationController
   before_action :find_dish, only: [:show, :edit, :update, :destroy]
 
   def index
-    @dishes = Dish.all.order("created_at DESC")
+    if params[:category].blank?
+      @dishes = Dish.all.order("created_at DESC")
+    else
+      @category_id = Category.find_by(name: params[:category]).id
+      @dishes = Dish.where(:category_id => @category_id).order("created_at DESC")
+    end
   end
 
   def show
