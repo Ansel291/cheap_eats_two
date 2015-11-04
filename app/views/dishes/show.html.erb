@@ -1,10 +1,22 @@
-<%= image_tag @dish.image.url(:medium) %>
-<h2><%= @dish.title %></h2>
-<h3>Restaurant: <%= @dish.restaurant %></h3>
-<h4>Category: <%= @dish.category.name %></h4>
-<p>City: <%= @dish.city %></p>
-<p>Price: <%= @dish.price %></p>
-<p>Description <%= @dish.description %></p>
+<div class="row">
+
+  <div class="col-md-4">
+
+    <%= image_tag @dish.image.url(:medium), class: "dish-show" %>
+
+  </div>
+
+  <div class="col-md-8">
+    <h2><%= @dish.title %></h2>
+    <h3>Restaurant: <%= @dish.restaurant %></h3>
+    <h4>Category: <%= @dish.category.name %></h4>
+    <p>City: <%= @dish.city %></p>
+    <p>Price: <%= @dish.price %></p>
+    <p>Description <%= @dish.description %></p>
+  </div>
+
+
+</div>
 
 <%= link_to "Back", root_path %>
 
