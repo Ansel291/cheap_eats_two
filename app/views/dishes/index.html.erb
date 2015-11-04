@@ -1,7 +1,12 @@
 <h1 class="current-category"><%= params[:category] %></h1>
 
-<% @dishes.each do |dish| %>
-  <h2> <%= link_to dish.title, dish_path(dish) %> </h2>
-<% end %>
+<% if @dishes.count == 0 %>
+  <h1>There are currently no dishes in this category</h1>
 
+<% else %>
+
+  <% @dishes.each do |dish| %>
+    <h2><%= link_to dish.title, dish_path(dish) %></h2>
+  <% end %>
+<% end %>
 
