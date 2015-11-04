@@ -1,6 +1,7 @@
 <%= image_tag @dish.image.url(:medium) %>
 <h2><%= @dish.title %></h2>
 <h3><%= @dish.restaurant %></h3>
+<h4>Category: <%= @dish.category.name %></h4>
 <p><%= @dish.city %></p>
 <p><%= @dish.price %></p>
 <p><%= @dish.description %></p>
