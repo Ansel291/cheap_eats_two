@@ -1,10 +1,10 @@
 <%= image_tag @dish.image.url(:medium) %>
 <h2><%= @dish.title %></h2>
-<h3><%= @dish.restaurant %></h3>
+<h3>Restaurant: <%= @dish.restaurant %></h3>
 <h4>Category: <%= @dish.category.name %></h4>
-<p><%= @dish.city %></p>
-<p><%= @dish.price %></p>
-<p><%= @dish.description %></p>
+<p>City: <%= @dish.city %></p>
+<p>Price: <%= @dish.price %></p>
+<p>Description <%= @dish.description %></p>
 
 <%= link_to "Back", root_path %>
 
