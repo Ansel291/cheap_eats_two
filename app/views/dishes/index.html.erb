@@ -6,7 +6,7 @@
 <% else %>
 
   <% @dishes.each do |dish| %>
-    <h2><%= link_to dish.title, dish_path(dish) %></h2>
     <%= image_tag dish.image.url(:medium) %>
+    <h2><%= link_to dish.title, dish_path(dish) %></h2>
   <% end %>
 <% end %>
