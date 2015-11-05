@@ -28,3 +28,6 @@ group :development do
   gem 'spring'
 end
 
+
+ruby 'ruby 2.2.3'
+
