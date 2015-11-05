@@ -745,8 +745,8 @@
     scoreName    : 'score',
     single       : false,
     space        : true,
-    starHalf     : 'https://s3-us-west-1.amazonaws.com/cheapeatsinla/star-half.png'
-    starOff      : 'https://s3-us-west-1.amazonaws.com/cheapeatsinla/star-off.png'
+    starHalf     : 'https://s3-us-west-1.amazonaws.com/cheapeatsinla/star-half.png',
+    starOff      : 'https://s3-us-west-1.amazonaws.com/cheapeatsinla/star-off.png',
     starOn       : 'https://s3-us-west-1.amazonaws.com/cheapeatsinla/star-on.png',
     starType     : 'img',
     target       : undefined,
