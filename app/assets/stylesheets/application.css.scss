@@ -22,8 +22,13 @@
 }
 
 body {
-  background-color: lightgrey;
+  background: url('http://i.imgur.com/Mm7TTG8.jpg') no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 }
+
 
 @mixin background-tile {
   box-sizing: border-box;
