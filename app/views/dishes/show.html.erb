@@ -23,6 +23,7 @@
   <div class="col-md-4">
 
     <!--Where the reviews/ratings will go -->
+    <%= render @dish.reviews %>
 
     <div>
       <%= link_to "Add Review", new_dish_review_path(@dish) %>
