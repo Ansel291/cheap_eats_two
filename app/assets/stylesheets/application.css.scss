@@ -13,7 +13,8 @@
  *= require_tree .
  *= require_self
  */
-@import url('https://fonts.googleapis.com/css?family=Lora|Ubuntu:300,400,500');
+ <%= stylesheet_link_tag "application", 'https://fonts.googleapis.com/css?family=Lora|Ubuntu:300,400,500', :media => "all" %>
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
