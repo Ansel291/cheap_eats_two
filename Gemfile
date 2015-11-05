@@ -12,10 +12,13 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'puma'
 gem 'bcrypt', '~> 3.1.7'
 
 gem "paperclip", "~> 4.3"
 gem 'aws-sdk', '< 2.0'
+
+
 
 gem 'rails_12factor', group: :production
 
