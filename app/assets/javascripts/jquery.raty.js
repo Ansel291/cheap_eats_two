@@ -724,7 +724,7 @@
     cancel       : false,
     cancelClass  : 'raty-cancel',
     cancelHint   : 'Cancel this rating!',
-    cancelOff    : '<%= asset_path('cancel-off.png') %>',
+    cancelOff    : 'cancel-off.png',
     cancelOn     : 'cancel-on.png',
     cancelPlace  : 'left',
     click        : undefined,
@@ -745,9 +745,9 @@
     scoreName    : 'score',
     single       : false,
     space        : true,
-    starHalf     : '<%= asset_path('star-half.png') %>',
-    starOff      : '<%= asset_path('star-off.png') %>',
-    starOn       : '<%= asset_path('star-on.png') %>',
+    starHalf     : 'https://s3-us-west-1.amazonaws.com/cheapeatsinla/star-half.png'
+    starOff      : 'https://s3-us-west-1.amazonaws.com/cheapeatsinla/star-off.png'
+    starOn       : 'https://s3-us-west-1.amazonaws.com/cheapeatsinla/star-on.png',
     starType     : 'img',
     target       : undefined,
     targetFormat : '{score}',
