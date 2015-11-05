@@ -12,7 +12,9 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
+
 gem 'puma'
+
 gem 'bcrypt', '~> 3.1.7'
 
 gem "paperclip", "~> 4.3"
@@ -32,5 +34,5 @@ group :development do
 end
 
 
-ruby 'ruby 2.2.3'
+ruby '2.2.3'
 
