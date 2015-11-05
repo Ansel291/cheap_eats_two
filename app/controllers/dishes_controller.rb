@@ -11,6 +11,11 @@ class DishesController < ApplicationController
   end
 
   def show
+    if @dish.reviews.blank?
+      @average_review = 0
+    else
+      @average_review = @dish.reviews.average(:rating).round(2)
+    end
   end
 
   def new
