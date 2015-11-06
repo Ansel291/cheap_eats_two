@@ -7,15 +7,21 @@
   </div>
 
   <div class="col-md-8">
-    <h2><%= @dish.title %></h2>
-    <h3>Restaurant: <%= @dish.restaurant %></h3>
-    <h4>Category: <%= @dish.category.name %></h4>
-    <p>City: <%= @dish.city %></p>
-    <p>Price:  $<%= @dish.price %></p>
-    <h2>Average Rating</h2>
-      <div class="average-review-rating" data-score=<%= @average_review %>></div>
-    <span>Based on <%= @dish.reviews.count %> reviews</span>
-    <p>Description: <%= @dish.description %></p>
+
+    <div class = "dish-info">
+
+      <h2><%= @dish.title %></h2>
+      <h3>Restaurant: <%= @dish.restaurant %></h3>
+      <h4>Category: <%= @dish.category.name %></h4>
+      <p>City: <%= @dish.city %></p>
+      <p>Price:  $<%= @dish.price %></p>
+      <h2>Average Rating</h2>
+        <div class="average-review-rating" data-score=<%= @average_review %>></div>
+      <span>Based on <%= @dish.reviews.count %> reviews</span>
+      <p>Description: <%= @dish.description %></p>
+
+    </div>
+
   </div>
 
 
@@ -25,11 +31,16 @@
 
   <div class="col-md-4">
 
-    <!--Where the reviews/ratings will go -->
-    <%= render @dish.reviews %>
+    <div class="reviews">
 
-    <div>
+      <!--Where the reviews/ratings will go -->
+      <h1>Reviews</h1>
+      <%= render @dish.reviews %>
+
+      <div>
       <%= link_to "Add Review", new_dish_review_path(@dish) %>
+      </div>
+
     </div>
 
   </div>

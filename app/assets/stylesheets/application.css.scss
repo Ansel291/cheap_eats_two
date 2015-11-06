@@ -46,3 +46,12 @@ background-size: cover;
   width: 325px;
   @include background-tile;
 }
+
+.dish-info {
+  @include background-tile;
+}
+
+.reviews {
+  @include background-tile;
+  margin-top: 40px;
+}
