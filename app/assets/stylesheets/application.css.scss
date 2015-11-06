@@ -17,16 +17,14 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-
 body {
-  background: url('http://i.imgur.com/SMk4j0n.jpg') no-repeat center center fixed;
+background: url('http://i.imgur.com/SMk4j0n.jpg') no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
 font-family: 'Lora', serif;
 }
-
 
 @mixin background-tile {
   box-sizing: border-box;
