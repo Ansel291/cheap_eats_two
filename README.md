@@ -9,20 +9,27 @@ However, if signed in, a user will be authenticated by their own individual uniq
 
 Also when signed in, viewers will be able to "review" a dish (if they have tried it) on a 1 to 5 scale star-rating.  Users who create their own reviews/ratings will also be authorized to update and delete their own posts.  Users who try to update/delete a post or review not created by them originally will not be authorized to do so.
 
-###Design:
+###Wireframe/ERD:
 
 ![](http://i.imgur.com/1omrtnA.jpg)
 ![](http://i.imgur.com/xXNaeOO.jpg)
+
+###Design:
+
+![](http://i.imgur.com/6CzyoCW.png)
+
 
 ###Technologies:
 
 Technologies used for the creation of this application database include:
 
-Amazon Web Services, Git, GitHub, Heroku, Terminal, Rails 4.2.4. 
+Amazon Web Services, Git, GitHub, Heroku, Terminal, Trello, Rails 4.2.4. 
 
 Languages Used:
 
 Bootstrap, CSS, HTML, JavaScript, Ruby v. 2.4.3
+
+https://trello.com/b/3y7ERjng/cheap-eats-of-la
 
 ###Install:
 
