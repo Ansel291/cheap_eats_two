@@ -1,7 +1,7 @@
 #Cheap Eats LA
 
 
-Cheap eats LA is an food blog database application that allows a user to view food, as deemed by the public to be  highly rated and of high quality for a price of less than $10.  
+Cheap eats LA is a food blog database application that allows a user to view food, as deemed by the public to be highly rated and of high quality for a price of less than $10.  
 
 If not signed in, a user will be able to view the index of the application which displays the thumbnails of each dish, as well as enter into an individual dish's "show" page which describes the name, the restaurant, the category of food (i.e. mexican or italian), the price, and a brief summary of the dish itself, a calculated average rating, as well as individual ratings posted by other viewers. The user will also be able to view dishes by category according to dish's origin.
 
