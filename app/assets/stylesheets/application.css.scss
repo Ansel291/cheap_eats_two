@@ -120,6 +120,10 @@ h1, h2, h3, h4, h5, h6 {
 .reviews {
   @include background-tile;
   margin-top: 40px;
+
+  .reviews-headline {
+    margin-top: 0px;
+  }
 }
 
 .new-dish-form {
