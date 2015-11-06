@@ -1,3 +1,5 @@
+
+
 <h1 class="current-category"><%= params[:category] %></h1>
 
 <% if @dishes.count == 0 %>
@@ -22,6 +24,12 @@
 
 <% end %>
 
+<img src="http://i.imgur.com/k4HHGqB.jpg" id="home-image">
+
+<script>
+$('#home-image').fadeOut(3000);
+
+</script>
 
 
 
