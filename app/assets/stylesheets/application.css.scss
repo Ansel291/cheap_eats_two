@@ -119,12 +119,24 @@ h1, h2, h3, h4, h5, h6 {
       letter-spacing: 0px;
     }
 
+    .dish-restaurant {
+      margin-top: 20px;
+    }
+
     .dish-category {
-      margin-top: 14px;
+      margin-top: 26px;
     }
 
     .dish-city {
-      margin-top: 14px;
+      margin-top: 0px;
+    }
+
+    .dish-price {
+      margin-top: -5px;
+    }
+
+    .dish-description {
+      margin-top: -6px;
     }
 
     .average-review-rating {
