@@ -97,6 +97,24 @@ h1, h2, h3, h4, h5, h6 {
 
 .dish-info {
   @include background-tile;
+
+    .dish-title {
+      margin-top: 5px;
+    }
+
+    .dish-category {
+      margin-top: 15px;
+    }
+
+    .dish-city {
+      margin-top: 15px;
+    }
+
+    .average-review-rating {
+      margin-top: -6px;
+      margin-bottom: 6.5px;
+    }
+
 }
 
 .reviews {
