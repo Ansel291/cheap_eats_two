@@ -85,13 +85,14 @@ h1, h2, h3, h4, h5, h6 {
 .btn-custom {
   color: darken(grey, 5%);
   background-color: #fff;
-  border: 1px solid darken(grey, 5%);
+  border: 1px solid darken(lightgrey, 5%);
   padding: 3.5px 9px;
   border-radius: 3.5px;
   font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
   &:hover {
     text-decoration: none;
-    background-color: darken(grey, 5%);
+    background-color: darken(lightgrey, 5%);
     color: #fff;
     transition: 0.5s;
   }
