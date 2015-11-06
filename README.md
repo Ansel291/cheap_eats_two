@@ -22,7 +22,7 @@ Amazon Web Services, Git, GitHub, Heroku, Terminal, Rails 4.2.4.
 
 Languages Used:
 
-CSS, HTML, JavaScript, Ruby v. 2.4.3
+Bootstrap, CSS, HTML, JavaScript, Ruby v. 2.4.3
 
 ###Install:
 
