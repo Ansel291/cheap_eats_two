@@ -24,12 +24,9 @@ body {
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
+font-family: 'Lora', serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Ubuntu', sans-serif;
-  font-weight: 300;
-}
 
 @mixin background-tile {
   box-sizing: border-box;
@@ -37,6 +34,54 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 5px;
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.45);
   padding: 1.5em 1.25em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+}
+
+.navbar {
+  font-family: 'Ubuntu', sans-serif;
+  text-transform: uppercase;
+}
+.navbar-default {
+  background-color: #fff;
+  padding-bottom: 5px;
+  padding-top: 5px;
+
+  .navbar-nav > li > a {
+    color: #222;
+    &:hover {
+      color: darken(#f1c40f, 5%);
+      transition: 0.5s;
+    }
+  }
+
+  .navbar-header {
+
+    .navbar-brand {
+      color: #222;
+      letter-spacing: 1.4px;
+    }
+
+  }
+
+  .dropdown-menu > li > a:hover {
+    background-color: darken(#f1c40f, 5%);
+    color: #fff;
+  }
+
+  .navbar-nav > .open > a, .navbar-nav > .open > a:hover, .navbar-nav > .open > a:focus {
+    background-color: darken(#f1c40f, 5%);
+    color: #fff;
+  }
+
+}
+
+.dropdown-menu > .active > a {
+  background-color: #f1c40f;
+  color: #fff;
 }
 
 .dish {
