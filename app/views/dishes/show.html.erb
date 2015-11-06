@@ -15,10 +15,10 @@
       <h4>Category: <%= @dish.category.name %></h4>
       <p>City: <%= @dish.city %></p>
       <p>Price:  $<%= @dish.price %></p>
-      <h2>Average Rating</h2>
+      <p>Description: <%= @dish.description %></p>
+      <h3>Average Rating</h3>
         <div class="average-review-rating" data-score=<%= @average_review %>></div>
       <span>Based on <%= @dish.reviews.count %> reviews</span>
-      <p>Description: <%= @dish.description %></p>
 
     </div>
 
