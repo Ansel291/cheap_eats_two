@@ -75,3 +75,8 @@ background-size: cover;
 .signup-form {
   @include background-tile;
 }
+
+.login-form {
+  @include background-tile;
+}
+
