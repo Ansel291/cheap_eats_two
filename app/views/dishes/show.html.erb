@@ -49,14 +49,14 @@
 
 <div class="links btn-group">
 
-<%= link_to "Back", root_path, class: "btn" %>
+<%= link_to "Back", root_path, class: "btn btn-custom" %>
 
   <% if user_signed_in? %>
 
     <% if @dish.user_id == current_user.id %>
 
-      <%= link_to "Edit", edit_dish_path(@dish), class: "btn" %>
-      <%= link_to "Delete", dish_path(@dish), method: :delete, data: { confirm: "Are you sure?" }, class: "btn" %>
+      <%= link_to "Edit", edit_dish_path(@dish), class: "btn btn-custom" %>
+      <%= link_to "Delete", dish_path(@dish), method: :delete, data: { confirm: "Are you sure?" }, class: "btn btn-custom" %>
 
     <% end %>
 

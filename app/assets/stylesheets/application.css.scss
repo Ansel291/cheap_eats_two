@@ -82,6 +82,21 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
+.btn-custom {
+  color: darken(#f1c40f, 5%);
+  background-color: #fff;
+  border: 1px solid darken(#f1c40f, 5%);
+  padding: 4.5px 11px;
+  border-radius: 5px;
+  font-family: 'Ubuntu', sans-serif;
+  &:hover {
+    text-decoration: none;
+    background-color: darken(#f1c40f, 5%);
+    color: #fff;
+    transition: 0.5s;
+  }
+}
+
 .dish {
   height: 350px;
   width: 250px;
@@ -125,6 +140,16 @@ h1, h2, h3, h4, h5, h6 {
   .reviews-headline {
     margin-top: 2.5px;
   }
+  .review {
+    border-bottom: 1px solid gainsboro;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+  }
+
+    .review-comment {
+      font-size: 1.05em;
+      line-height: 1.5;
+    }
 }
 
 .new-dish-form {
