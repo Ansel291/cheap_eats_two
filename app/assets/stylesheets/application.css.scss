@@ -13,6 +13,7 @@
  *= require_tree .
  *= require_self
  */
+@import url(http://fonts.googleapis.com/css?family=Lora|Ubuntu:300,400,500);
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
@@ -25,6 +26,10 @@ body {
 background-size: cover;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+}
 
 @mixin background-tile {
   box-sizing: border-box;
