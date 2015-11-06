@@ -47,18 +47,22 @@
 
 </div>
 
-<%= link_to "Back", root_path %>
+<div class="links btn-group">
 
-<% if user_signed_in? %>
+<%= link_to "Back", root_path, class: "btn" %>
 
-  <% if @dish.user_id == current_user.id %>
+  <% if user_signed_in? %>
 
-    <%= link_to "Edit", edit_dish_path(@dish) %>
-    <%= link_to "Delete", dish_path(@dish), method: :delete, data: { confirm: "Are you sure?" } %>
+    <% if @dish.user_id == current_user.id %>
+
+      <%= link_to "Edit", edit_dish_path(@dish), class: "btn" %>
+      <%= link_to "Delete", dish_path(@dish), method: :delete, data: { confirm: "Are you sure?" }, class: "btn" %>
+
+    <% end %>
 
   <% end %>
 
-<% end %>
+</div>
 
 <script>
   $('.review-rating').raty({
