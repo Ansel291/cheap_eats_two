@@ -1,4 +1,8 @@
+<%= link_to dishes_path do %>
 
+<img src="http://i.imgur.com/k4HHGqB.jpg" id="home-image">
+
+<% end %>
 
 <h1 class="current-category"><%= params[:category] %></h1>
 
@@ -24,14 +28,22 @@
 
 <% end %>
 
+<script>
+
+// $( "#home-image" ).on( "click", function() {
+//    $( "#home-image" ).fadeOut(3000);
+// });
 
 
+$('a').click(function(e) {
+  e.preventDefault();
+  newLocation = this.href;
+  $('#home-image').fadeOut(3000, newpage);
+});
+function newpage() {
+  window.location = newLocation;
+}
 
-
-
-
-
-
-
+</script>
 
 
