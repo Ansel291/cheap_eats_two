@@ -29,7 +29,7 @@ class DishesController < ApplicationController
     @dish.category_id = params[:category_id]
 
     if @dish.save
-      redirect_to root_path
+      redirect_to dishes_path
     else
       render 'new'
     end
