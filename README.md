@@ -123,7 +123,7 @@ end
 
 Perhaps the most relevant problematic hurdle that remains is need for creating some sort of warning dialogue box or modal when a user is attempting to post a dish without completely filling out every form field.  When the user fails to fill out information for each category, the database for that particular dish freezes, and the user is therefore not able to click and open the show page for the newly posted Dish.  In order to resolve this problem, a warning modal must be created to inform the user when he/she has not completely filled in every field in the create new dish page in its entirety.
 
----
+___
 
 ####Copyrighted by:
 Jason Asahara 2015
