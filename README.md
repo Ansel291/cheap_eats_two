@@ -41,7 +41,7 @@ Amazon Web Services, Git, GitHub, Heroku, Terminal, Trello, Rails 4.2.4.
 Bootstrap, CSS, HTML, JavaScript, JQuery, Ruby v. 2.4.3
 
 
-###Installations required:
+###Installations Required:
 
 - Below is a snippet of the gemfile with all ruby gem dependencies.
 
