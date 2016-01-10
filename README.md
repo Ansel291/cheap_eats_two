@@ -1,4 +1,9 @@
+
+#![](http://i.imgur.com/PN5dMnA.jpg)
+
 #Cheap Eats LA
+
+### The Product:
 
 
 Cheap eats LA is a food blog database application that allows a user to view food, as deemed by the public to be highly rated and of high quality for a price of less than $10.  
