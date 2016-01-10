@@ -44,7 +44,7 @@ Communication | Collaboration | Design | Development | APIs | Deployment
  [Markdown](https://guides.github.com/features/mastering-markdown/)|  |  | [Bootstrap](http://getbootstrap.com/) | |
  |  | | [JavaScript/jQuery](https://www.javascript.com/) | 
  |  | | [Ruby v. 2.4.3](http://ruby-doc.com/) |
- |  | | [Rails v. 4.2.4](https://github.com/) |
+ |  | | [Rails v. 4.2.4](http://rubyonrails.org/) |
  |  | | [GitHub](https://github.com/) |
  |  | | [Sublime](http://www.sublimetext.com/) |
 
