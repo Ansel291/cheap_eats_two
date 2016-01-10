@@ -41,9 +41,41 @@ Amazon Web Services, Git, GitHub, Heroku, Terminal, Trello, Rails 4.2.4.
 Bootstrap, CSS, HTML, JavaScript, JQuery, Ruby v. 2.4.3
 
 
-###Installation:
+###Installations required:
 
-To view Cheap Eats of LA, sign onto the web address of the application and follow the prompts and the game will load automatically with no installation required.
+#### Package dependancies:
+- Below is a snippet of our gemfile with all ruby gem dependancies.
+
+```
+gem 'rails', '4.2.4'
+gem 'pg'
+gem 'sass-rails', '~> 5.0'
+gem 'simple_form', '~> 3.2'
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.5.1'
+gem 'devise', '~> 3.5', '>= 3.5.2'
+gem 'uglifier', '>= 1.3.0'
+gem 'coffee-rails', '~> 4.1.0'
+gem 'jquery-rails'
+gem 'turbolinks'
+gem 'jbuilder', '~> 2.0'
+gem 'sdoc', '~> 0.4.0', group: :doc
+
+gem 'puma'
+gem 'bcrypt', '~> 3.1.7'
+gem "paperclip", "~> 4.3"
+gem 'aws-sdk', '< 2.0'
+gem 'rails_12factor', group: :production
+
+group :development, :test do
+  gem 'byebug'
+end
+
+group :development do
+  gem 'web-console', '~> 2.0'
+  gem 'spring'
+end
+```
+
 
 
 ### Development Process:* Visit the [trello.com](https://trello.com/b/3y7ERjng/cheap-eats-of-la) to see how this project was organized, planned, goals that were reached, user stories, and rough sketches.
