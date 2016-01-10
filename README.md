@@ -43,8 +43,7 @@ Bootstrap, CSS, HTML, JavaScript, JQuery, Ruby v. 2.4.3
 
 ###Installations required:
 
-#### Package dependancies:
-- Below is a snippet of our gemfile with all ruby gem dependancies.
+- Below is a snippet of the gemfile with all ruby gem dependencies.
 
 ```
 gem 'rails', '4.2.4'
