@@ -34,15 +34,21 @@ Jason **Asahara** | [GitHub](https://github.com/Ansel291) | [jasahara@yahoo.com]
 ![](http://i.imgur.com/6CzyoCW.png)
 
 
-###Technologies Used:
+### Technologies Used:
 
-Technologies used for the creation of this application database include:
 
-Amazon Web Services, Git, GitHub, Heroku, Terminal, Trello, Rails 4.2.4. 
+Communication | Collaboration | Design | Development | APIs | Deployment
+----| ---| --- | --- | --- | ---
+ [Standup meetings](https://en.wikipedia.org/wiki/Stand-up_meeting)| | | [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)|  | [Heroku](http://heroku.com/)
+ [Slack](https://slack.com/) | |  | [CSS3](http://www.w3schools.com/css/) |  | [Amazon Web Services](http://aws.amazon.com/)
+ [Markdown](https://guides.github.com/features/mastering-markdown/)|  |  | [Bootstrap](http://getbootstrap.com/) | |
+ |  | | [JavaScript/jQuery](https://www.javascript.com/) | 
+ |  | | [Ruby v. 2.4.3](http://ruby-doc.com/) |
+ |  | | [Rails v. 4.2.4](https://github.com/) |
+ |  | | [GitHub](https://github.com/) |
+ |  | | [Sublime](http://www.sublimetext.com/) |
 
-###Languages Used:
-
-Bootstrap, CSS, HTML, JavaScript, JQuery, Ruby v. 2.4.3
+---
 
 
 ###Installations Required:
