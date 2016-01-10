@@ -10,7 +10,9 @@ Cheap eats LA is a food blog database application that allows a user to view foo
 
 - [Click here to visit Cheap Eats of LA](https://mighty-stream-1020.herokuapp.com/)
 
-If not signed in, a user will be able to view the index of the application which displays the thumbnails of each dish, as well as enter into an individual dish's "show" page which describes the name, the restaurant, the category of food (i.e. mexican or italian), the price, and a brief summary of the dish itself, a calculated average rating, as well as individual ratings posted by other viewers. The user will also be able to view dishes by category according to dish's origin.
+A user can register and login to the app by typing in their email and a password.  
+
+If not signed in, a user will be able to view the index of the application which displays the thumbnails of each dish, as well as enter into an individual dish's "show" page which describes the name, the restaurant, the category of food (i.e. mexican or italian), the price, and a brief summary of the dish itself, a calculated average rating, as well as individual ratings posted by other viewers. The user will also be able to view dishes by category according to dish's ethnic origin.
 
 However, if signed in, a user will be authenticated by their own individual unique password and will be able to upload/create their own images and add/post to the database, and fill in detailed information of a dish that they are presenting to other viewers.
 
@@ -34,9 +36,9 @@ Technologies used for the creation of this application database include:
 
 Amazon Web Services, Git, GitHub, Heroku, Terminal, Trello, Rails 4.2.4. 
 
-Languages Used:
+###Languages Used:
 
-Bootstrap, CSS, HTML, JavaScript, Ruby v. 2.4.3
+Bootstrap, CSS, HTML, JavaScript, JQuery, Ruby v. 2.4.3
 
 
 ###Installation:
