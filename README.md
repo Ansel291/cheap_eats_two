@@ -1,5 +1,5 @@
 
-#![](http://i.imgur.com/PN5dMnA.jpg)
+#![](http://i.imgur.com/EgqdClg.jpg)
 
 #Cheap Eats LA
 
@@ -8,23 +8,27 @@
 
 Cheap eats LA is a food blog database application that allows a user to view food, as deemed by the public to be highly rated and of high quality for a price of less than $10.  
 
+- [Click here to visit Cheap Eats of LA](https://mighty-stream-1020.herokuapp.com/)
+
 If not signed in, a user will be able to view the index of the application which displays the thumbnails of each dish, as well as enter into an individual dish's "show" page which describes the name, the restaurant, the category of food (i.e. mexican or italian), the price, and a brief summary of the dish itself, a calculated average rating, as well as individual ratings posted by other viewers. The user will also be able to view dishes by category according to dish's origin.
 
 However, if signed in, a user will be authenticated by their own individual unique password and will be able to upload/create their own images and add/post to the database, and fill in detailed information of a dish that they are presenting to other viewers.
 
 Also when signed in, viewers will be able to "review" a dish (if they have tried it) on a 1 to 5 scale star-rating.  Users who create their own reviews/ratings will also be authorized to update and delete their own posts.  Users who try to update/delete a post or review not created by them originally will not be authorized to do so.
 
-###Wireframe/ERD:
+### Created By:
 
-![](http://i.imgur.com/1omrtnA.jpg)
-![](http://i.imgur.com/xXNaeOO.jpg)
+**Name** | **GitHub** | **Email** 
+---------| ---------- | ---------
+Jason **Asahara** | [GitHub](https://github.com/Ansel291) | [jasahara@yahoo.com](jasahara@yahoo.com)
+
 
 ###Design:
 
 ![](http://i.imgur.com/6CzyoCW.png)
 
 
-###Technologies:
+###Technologies Used:
 
 Technologies used for the creation of this application database include:
 
@@ -41,6 +45,12 @@ https://trello.com/b/3y7ERjng/cheap-eats-of-la
 The app requires no installation process and can be viewed publically at:
 
 https://mighty-stream-1020.herokuapp.com/
+
+### Development Process:* Visit the [trello.com](https://trello.com/b/3y7ERjng/cheap-eats-of-la) to see how this project was organized, planned, goals that were reached, user stories, and rough sketches.
+###Wireframe/ERD:
+
+![](http://i.imgur.com/1omrtnA.jpg)
+![](http://i.imgur.com/xXNaeOO.jpg)
 
 ###Upcoming Features:
 
