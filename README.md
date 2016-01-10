@@ -3,6 +3,8 @@
 
 #Cheap Eats LA
 
+---
+
 ### The Product:
 
 
@@ -17,6 +19,8 @@ If not signed in, a user will be able to view the index of the application which
 However, if signed in, a user will be authenticated by their own individual unique password and will be able to upload/create their own images and add/post to the database, and fill in detailed information of a dish that they are presenting to other viewers.
 
 Also when signed in, viewers will be able to "review" a dish (if they have tried it) on a 1 to 5 scale star-rating.  Users who create their own reviews/ratings will also be authorized to update and delete their own posts.  Users who try to update/delete a post or review not created by them originally will not be authorized to do so.
+
+---
 
 ### Created By:
 
@@ -78,7 +82,8 @@ end
 
 
 ### Development Process:* Visit the [trello.com](https://trello.com/b/3y7ERjng/cheap-eats-of-la) to see how this project was organized, planned, goals that were reached, user stories, and rough sketches.
-###Wireframe/ERD:
+---
+###Wireframe/ERD:
 
 ![](http://i.imgur.com/1omrtnA.jpg)
 ![](http://i.imgur.com/xXNaeOO.jpg)
@@ -104,15 +109,21 @@ end
 
 [ x ] As a user, I want to be able to Edit my review. 11-01-15 (Completed on 11-01-15)
 
+---
+
 ###Upcoming Features:
 
 [ ]  A counter that tracks how many times a post has been viewed. 10-30-15
  
 [ ]  A "like" button with a counter that tracks the number of times that a post has been liked.  11-02-15
 
+---
+
 ###Unsolved Problems/Major Hurdles:
 
 Perhaps the most relevant problematic hurdle that remains is need for creating some sort of warning dialogue box or modal when a user is attempting to post a dish without completely filling out every form field.  When the user fails to fill out information for each category, the database for that particular dish freezes, and the user is therefore not able to click and open the show page for the newly posted Dish.  In order to resolve this problem, a warning modal must be created to inform the user when he/she has not completely filled in every field in the create new dish page in its entirety.
+
+---
 
 ####Copyrighted by:
 Jason Asahara 2015
