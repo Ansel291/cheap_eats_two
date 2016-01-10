@@ -38,13 +38,11 @@ Languages Used:
 
 Bootstrap, CSS, HTML, JavaScript, Ruby v. 2.4.3
 
-https://trello.com/b/3y7ERjng/cheap-eats-of-la
 
-###Install:
+###Installation:
 
-The app requires no installation process and can be viewed publically at:
+To view Cheap Eats of LA, sign onto the web address of the application and follow the prompts and the game will load automatically with no installation required.
 
-https://mighty-stream-1020.herokuapp.com/
 
 ### Development Process:* Visit the [trello.com](https://trello.com/b/3y7ERjng/cheap-eats-of-la) to see how this project was organized, planned, goals that were reached, user stories, and rough sketches.
 ###Wireframe/ERD:
@@ -52,11 +50,6 @@ https://mighty-stream-1020.herokuapp.com/
 ![](http://i.imgur.com/1omrtnA.jpg)
 ![](http://i.imgur.com/xXNaeOO.jpg)
 
-###Upcoming Features:
-
-[ ]  A counter that tracks how many times a post has been viewed. 10-30-15
- 
-[ ]  A "like" button with a counter that tracks the number of times that a post has been liked.  11-02-15
 
 ###Milestones/User Stories Accomplished:
 
@@ -78,6 +71,15 @@ https://mighty-stream-1020.herokuapp.com/
 
 [ x ] As a user, I want to be able to Edit my review. 11-01-15 (Completed on 11-01-15)
 
+###Upcoming Features:
+
+[ ]  A counter that tracks how many times a post has been viewed. 10-30-15
+ 
+[ ]  A "like" button with a counter that tracks the number of times that a post has been liked.  11-02-15
+
+###Unsolved Problems/Major Hurdles:
+
+Perhaps the most relevant problematic hurdle that remains is need for creating some sort of warning dialogue box or modal when a user is attempting to post a dish without completely filling out every form field.  When the user fails to fill out information for each category, the database for that particular dish freezes, and the user is therefore not able to click and open the show page for the newly posted Dish.  In order to resolve this problem, a warning modal must be created to inform the user when he/she has not completely filled in every field in the create new dish page in its entirety.
 
 
 
@@ -85,4 +87,4 @@ https://mighty-stream-1020.herokuapp.com/
 
 
 
-T
+
