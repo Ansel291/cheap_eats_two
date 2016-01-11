@@ -1,7 +1,7 @@
 <%= simple_form_for @dish do |f| %>
   <%= f.input :image, as: :file, label: "Dish Image:" %>
   <%= select_tag(:category_id, options_for_select(@categories), :prompt => "Select a category") %>
-  <%= f.input :title, label: "Dish Name:" %>
+  <%= f.input :title, label: "Dish Name:", :class => 'dish-name-headline' %>
   <%= f.input :restaurant, label: "Restaurant Name:" %>
   <%= f.input :city, label: "City, State:" %>
   <%= f.input :price, label: "$" %>
