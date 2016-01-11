@@ -1,23 +1,23 @@
 <div class="col-md-6 col-md-offset-3">
 
-  <div class="edit-dish-form">
+  <div class="edit-dish-form ubuntu">
 
-<h1>Edit Dish</h1>
+    <h1>Edit Dish</h1>
 
-    <%= simple_form_for @dish, :html => { :multipart => true } do |f| %>
-      <%= f.input :image, as: :file, label: "Dish Image" %>
-      <%= f.select :category_id, @categories %>
-      <%= f.input :title, label: "Dish Name:" %>
-      <%= f.input :restaurant, label: "Restaurant Name:" %>
-      <%= f.input :city, label: "City, State:" %>
-      <%= f.input :price, label: "$" %>
-      <%= f.input :description, label: "Description:" %>
+      <%= simple_form_for @dish, :html => { :multipart => true } do |f| %>
+        <%= f.input :image, as: :file, label: "Dish Image" %>
+        <%= f.select :category_id, @categories %>
+        <%= f.input :title, label: "Dish Name:" %>
+        <%= f.input :restaurant, label: "Restaurant Name:" %>
+        <%= f.input :city, label: "City, State:" %>
+        <%= f.input :price, label: "$" %>
+        <%= f.input :description, label: "Description:" %>
 
 
-      <%= f.button :submit  %>
-    <% end %>
+        <%= f.button :submit  %>
+      <% end %>
 
-    </div>
+  </div>
 
 </div>
 
