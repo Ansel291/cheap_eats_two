@@ -1,3 +1,5 @@
+# All the CRUD and REST functionality for DISHES is coded here
+
 class DishesController < ApplicationController
   before_action :find_dish, only: [:show, :edit, :update, :destroy]
   before_action :authenticate_user!, only: [:new, :edit]

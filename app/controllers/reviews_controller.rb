@@ -1,3 +1,5 @@
+# All the CRUD and REST functionality for REVIEWS is coded here
+
 class ReviewsController < ApplicationController
   before_action :find_dish
   before_action :find_review, only: [:edit, :update, :destroy]
