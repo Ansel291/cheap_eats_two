@@ -4,7 +4,7 @@
   <%= f.input :city, label: "City, State:" %>
   <%= f.input :price, label: "$" %>
   <%= f.input :description, label: "Description:" %>
-  <%= f.button :submit, :class => 'btn-custom2' %>
   <%= f.input :image, as: :file, label: "Dish Image:" %>
   <%= select_tag(:category_id, options_for_select(@categories), :prompt => "Select a category") %>
+  <%= f.button :submit, :class => 'btn-custom2' %>
 <% end %>
