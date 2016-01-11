@@ -6,7 +6,7 @@
 
       <%= simple_form_for @dish, :html => { :multipart => true } do |f| %>
         <%= f.input :image, as: :file, label: "Dish Image:" %>
-        <%= f.select :category_id, label: "Dish Name:", @categories %>
+        <%= f.select :category_id, @categories %>
         <%= f.input :title, label: "Dish Name:" %>
         <%= f.input :restaurant, label: "Restaurant Name:" %>
         <%= f.input :city, label: "City, State:" %>
