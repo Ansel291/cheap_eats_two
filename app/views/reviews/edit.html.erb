@@ -6,7 +6,7 @@
 
     <%= simple_form_for([@dish, @review]) do |f| %>
       <div class="ubuntu" id="rating-form">
-      <label>Rating</label>
+      <label class="rating-headline">Rating</label>
       </div>
       <%= f.input :comment %>
       <%= f.button :submit %>
