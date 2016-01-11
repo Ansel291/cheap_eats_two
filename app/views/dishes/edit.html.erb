@@ -5,7 +5,7 @@
     <h1>Edit Dish</h1>
 
       <%= simple_form_for @dish, :html => { :multipart => true } do |f| %>
-        <%= f.input :image, as: :file, label: "Dish Image" %>
+        <%= f.input :image, as: :file, label: "Dish Image:" %>
         <%= f.select :category_id, @categories %>
         <%= f.input :title, label: "Dish Name:" %>
         <%= f.input :restaurant, label: "Restaurant Name:" %>
